@@ -1,7 +1,7 @@
 {
   "name": "Silent Haptic Game",
   "short_name": "HapticGame",
-  "start_url": "/index.html",
+  "start_url": "/game/index.html",
   "display": "fullscreen",
   "background_color": "#000000",
   "theme_color": "#000000",
