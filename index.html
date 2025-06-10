@@ -38,7 +38,10 @@
     <script>
         function startGame() {
             if (navigator.vibrate) {
-                navigator.vibrate([200, 100, 200]); // haptic pattern
+                navigator.vibrate(100); // 100ms buzz
+                console.log("Buzzed!");
+            } else {
+                console.log("Vibration not supported on this device.");
             }
         }
         // Register service worker
